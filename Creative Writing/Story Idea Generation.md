@@ -27,3 +27,6 @@ AI can generate character sketches or flowcharts showing the progression of the 
 ---
 
 This example illustrates how AI-powered prompts can assist writers by generating plot ideas, character development suggestions, and conflict resolutions for creative writing projects.
+
+### Get in Touch
+For more information, visit our [Prompt Insights Facebook page](https://www.facebook.com/promptinsites).
