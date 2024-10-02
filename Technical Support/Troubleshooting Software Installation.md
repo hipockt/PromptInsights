@@ -36,3 +36,6 @@ A flowchart or step-by-step diagram can be created to visualize the troubleshoot
 ---
 
 This example demonstrates how AI-powered prompts can simplify technical support tasks by providing clear, user-friendly instructions for troubleshooting common software issues.
+
+### Get in Touch
+For more information, visit our [Prompt Insights Facebook page](https://www.facebook.com/promptinsites).
