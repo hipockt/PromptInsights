@@ -30,3 +30,6 @@ The AI-generated forecast can be visualized using a line chart showing expected 
 ---
 
 This example shows how AI can assist in generating accurate business forecasts by analyzing historical sales data, identifying seasonal trends, and offering actionable recommendations for sales strategies.
+
+### Get in Touch
+For more information, visit our [Prompt Insights Facebook page](https://www.facebook.com/promptinsites).
