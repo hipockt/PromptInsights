@@ -13,12 +13,12 @@
             display: flex;
             flex-direction: column;
             min-height: 100vh;
-            text-align: center;
         }
         header {
             background-color: #333;
             color: white;
             padding: 20px;
+            text-align: center;
         }
         .lead-image {
             max-width: 100%;
@@ -27,6 +27,7 @@
         main {
             flex-grow: 1;
             padding: 20px;
+            text-align: center;
         }
         section {
             margin: 20px auto;
@@ -34,19 +35,27 @@
             padding: 20px;
             background-color: #fff;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
         }
         footer {
             background-color: #333;
             color: white;
             padding: 10px;
             text-align: center;
-            margin-top: auto;
         }
         h1, h2, p {
             color: #333;
         }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 8px 0;
+        }
         a {
             color: #1a73e8;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -76,6 +85,23 @@
             <p>Email: <a href="mailto:promptinsights.contact@gmail.com">promptinsights.contact@gmail.com</a></p>
             <p>Phone: +90 506-359-1472</p>
             <p><a href="https://www.facebook.com/promptinsights">Visit our Facebook Page</a></p>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+            <h2>Our Portfolio</h2>
+            <div>
+                <h3>Legal Case Example</h3>
+                <p>A defense strategy prompt for a hit-and-run case, outlining key points for building a strong legal defense.</p>
+            </div>
+            <div>
+                <h3>Business Forecast Example</h3>
+                <p>AI-powered market prediction for a retail company, focusing on trends and future sales forecasting.</p>
+            </div>
+            <div>
+                <h3>Creative Writing Example</h3>
+                <p>A storytelling prompt for a fantasy novel, helping to generate creative ideas and plot development.</p>
+            </div>
         </section>
     </main>
 
