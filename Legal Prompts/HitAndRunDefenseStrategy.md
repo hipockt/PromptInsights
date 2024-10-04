@@ -32,4 +32,4 @@ This case’s defense strategy could be visually represented with a flowchart il
 This is an example of how AI-powered prompts can assist in building a defense strategy by generating relevant legal insights and suggesting alternative scenarios for the case.
 
 ### Get in Touch
-For more information, visit our [Prompt Insights Facebook page](https://www.facebook.com/promptinsites).
+For more information, visit our [Prompt Insights Facebook page](https://www.facebook.com/promptinsights).
