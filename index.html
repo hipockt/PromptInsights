@@ -49,7 +49,6 @@
         section p {
             color: #666;
             font-size: 1.1em;
-            margin-bottom: 20px;
             line-height: 1.6;
         }
 
@@ -82,7 +81,7 @@
             text-align: left;
         }
 
-        input, textarea {
+        input, textarea, select {
             width: 100%;
             padding: 10px;
             margin-bottom: 10px;
@@ -112,6 +111,12 @@
         <p>AI-powered solutions for decision-making, problem-solving, and creativity across industries.</p>
     </header>
 
+    <section id="mission">
+        <h2>Empowering AI Innovation</h2>
+        <p>Our mission is to make AI prompt technology accessible to businesses, educators, and communities, empowering innovation and productivity.</p>
+        <p>Proudly Métis-Owned | Eligible for Government Grants Supporting Indigenous Businesses.</p>
+    </section>
+
     <main>
         <section id="services">
             <h2>Our Services</h2>
@@ -124,50 +129,59 @@
             </ul>
         </section>
 
+        <section id="why-choose-us">
+            <h2>Why Choose Prompt Insights?</h2>
+            <ul>
+                <li>Proudly Métis-Owned and Focused on Empowering Indigenous Businesses.</li>
+                <li>Eligible for Government Grants Supporting Indigenous Entrepreneurship.</li>
+                <li>Affordable AI Solutions Tailored for Small Businesses and Creatives.</li>
+                <li>Proven Examples of AI-Powered Strategies for Business Growth.</li>
+            </ul>
+        </section>
+
         <section id="portfolio">
             <h2>Explore Our Examples</h2>
 
             <div>
                 <h3>Legal Case Example</h3>
                 <p>A defense strategy prompt for a hit-and-run case, outlining key points for building a strong legal defense.</p>
-                <p><a href="https://raw.githubusercontent.com/hipockt/PromptInsights/refs/heads/main/Legal%20Prompts/HitAndRunDefenseStrategy.md" target="_blank">View Full Example</a></p>
+                <p><a href="#">View Full Example</a></p>
             </div>
 
             <div>
                 <h3>Business Forecast Example</h3>
                 <p>AI-powered market prediction for a retail company.</p>
-                <p><a href="https://raw.githubusercontent.com/hipockt/PromptInsights/refs/heads/main/Business%20Forecasting/RetailSalesForecast.md" target="_blank">View Full Example</a></p>
+                <p><a href="#">View Full Example</a></p>
             </div>
 
             <div>
                 <h3>Creative Writing Example</h3>
                 <p>A storytelling prompt for a fantasy novel.</p>
-                <p><a href="https://raw.githubusercontent.com/hipockt/PromptInsights/refs/heads/main/Creative%20Writing/StoryIdeaGeneration.md" target="_blank">View Full Example</a></p>
+                <p><a href="#">View Full Example</a></p>
             </div>
 
             <div>
                 <h3>Technical Support Example</h3>
                 <p>AI prompts to troubleshoot software installation issues.</p>
-                <p><a href="https://raw.githubusercontent.com/hipockt/PromptInsights/refs/heads/main/Technical%20Support/TroubleshootingSoftwareInstallation.md" target="_blank">View Full Example</a></p>
+                <p><a href="#">View Full Example</a></p>
             </div>
-
-            <div>
-                <h3>SEO Strategy Example</h3>
-                <p>An AI-powered SEO strategy designed for small businesses to optimize their website and boost their search engine rankings.</p>
-                <p><a href="https://raw.githubusercontent.com/hipockt/PromptInsights/refs/heads/main/SEO%20Strategy/seostrategyexample.md" target="_blank">View Full Example</a></p>
-            </div>
-
         </section>
 
         <section id="contact">
             <h2>Contact Us</h2>
-            <p>If you'd like to learn more about our services or have any inquiries, please reach out to us!</p>
             <form action="https://formspree.io/f/xvgoppnl" method="POST">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
 
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
+
+                <label for="inquiry-type">Inquiry Type:</label>
+                <select id="inquiry-type" name="inquiry-type">
+                    <option value="general">General Inquiry</option>
+                    <option value="grant">Grant Partnerships</option>
+                    <option value="custom">Custom Prompt Development</option>
+                </select>
 
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="4" required></textarea>
@@ -176,12 +190,14 @@
             </form>
 
             <p>Email: promptinsights.contact@gmail.com</p>
-            <p><a href="https://facebook.com/promptinsights" target="_blank">Visit our Facebook Page</a></p>
+            <p><a href="#">Visit our Facebook Page</a></p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Prompt Insights</p>
+        <p>&copy; 2024 Prompt Insights | AI Solutions for Businesses & Creatives</p>
+        <p>Proudly Métis-Owned | Eligible for Indigenous Business Grants</p>
+        <p>Contact: promptinsights.contact@gmail.com | (123) 456-7890</p>
     </footer>
 </body>
 
